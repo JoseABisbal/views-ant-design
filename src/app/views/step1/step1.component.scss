@@ -1,8 +1,50 @@
-nz-divider {
-    color: #333;
-    fontweight: normal;
+.col-team {
+  border-style: none groove none none;
+  border-top: 3px solid #3B7BDC;
+
+  h1, h2, h3, h4, h5, h6 {
+    color:#3B7BDC;
+    font-weight: 500;
   }
-  .inner-box {
-    background: #ffffff;
-    padding: 8px 0;
+}
+
+
+.col-business {
+  border-style: none groove none none;
+  border-top: 3px solid #ECA651;
+
+  h1, h2, h3, h4, h5, h6 {
+    color:#ECA651;
+    font-weight: 500;
   }
+}
+
+.col-enetprise {
+  border-style: none groove none none;
+  border-top: 3px solid #21BC9C;
+
+  h1, h2, h3, h4, h5, h6 {
+    color:#21BC9C;
+    font-weight: 500;
+  }
+}
+
+.features {
+  background-color: #F6F7FB;
+}
+
+.workspaces {
+  background-color: #F6F7FB;
+}
+
+.support {
+  background-color: #F6F7FB;
+}
+
+.delimitation{
+  border-style: none groove none none;
+}
+
+.final-delimitation{
+  border-style: none groove groove none;
+}

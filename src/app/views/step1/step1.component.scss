@@ -1,10 +1,17 @@
 .col-team {
   border-style: none groove none none;
   border-top: 3px solid #3B7BDC;
+  padding-top: 12px;
 
-  h1, h2, h3, h4, h5, h6 {
-    color:#3B7BDC;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #3B7BDC;
     font-weight: 500;
+    text-align: center;
   }
 }
 
@@ -12,20 +19,32 @@
 .col-business {
   border-style: none groove none none;
   border-top: 3px solid #ECA651;
-
-  h1, h2, h3, h4, h5, h6 {
-    color:#ECA651;
+  padding-top: 12px;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #ECA651;
     font-weight: 500;
+    text-align: center;
   }
 }
 
 .col-enetprise {
   border-style: none groove none none;
   border-top: 3px solid #21BC9C;
-
-  h1, h2, h3, h4, h5, h6 {
-    color:#21BC9C;
+  padding-top: 12px;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #21BC9C;
     font-weight: 500;
+    text-align: center;
   }
 }
 
@@ -41,10 +60,31 @@
   background-color: #F6F7FB;
 }
 
-.delimitation{
+.delimitation-c1 {
   border-style: none groove none none;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 
-.final-delimitation{
+.delimitation {
+  border-style: none groove none none;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+.final-delimitation {
   border-style: none groove groove none;
+  text-align: center;
+  padding-bottom: 12px;
+}
+
+
+[nz-button] {
+  color: #3B7BDC;
+  background: #fff;
+}
+
+[nz-radio-button] {
+  color: white;
+  background: #3B7BDC;;
 }

@@ -8,15 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   isCollapsed = false;
 
-  tabs = [
-    {
-      name: 'Step 1',
-      disabled: false
-    },
-    {
-      name: 'Step 2',
-      disabled: false
-    }
-  ];
 
 }

@@ -7,17 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Step1Component implements OnInit {
 
-  tabs = [
-    {
-      name: 'Step 1',
-      disabled: false
-    },
-    {
-      name: 'Step 2',
-      disabled: false
-    }
-  ];
-
   constructor() { }
 
   ngOnInit(): void {

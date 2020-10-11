@@ -1,9 +1,5 @@
-<nz-page-header class="site-page-header" nzBackIcon nzTitle="PlanToBuild Workspaces & Functions">
-
-
-</nz-page-header>
-
-<nz-page-header class="site-page-header" nzSubtitle="This is your company plan information"></nz-page-header>
+<h2><i nz-icon nzType="arrow-left" nzTheme="outline"></i><span style="color:rgb(0, 0, 0);font-style:normal"> PlanToBuild Workspaces & Functions</span></h2>
+<h4><span style="color:rgb(54, 54, 54);font-style:normal">This is your company plan information</span></h4>
 <nz-tabset>
   <nz-tab *ngFor="let tab of tabs" [nzTitle]="tab.name" [nzDisabled]="tab.disabled">
 
@@ -31,7 +27,7 @@
 
       <div nz-row class="r-2">
         <div nz-col nzSpan="6" class="delimitation-c1">
-          <span>Save an extra 17%</span>
+          <span>Save an extra <span style="color:rgb(52, 226, 6);font-style:normal">17%</span></span>
           <br>
           <span>Invoiced monthly.</span>
         </div>
@@ -580,4 +576,8 @@
 
     </div>
 
-    
+    <footer class="footer">
+      <p><a href="mailto:josealbertobisbal@gmail.com">Contact us</a> to create a custom package that meets your needs</p>
+    </footer>
+  </nz-tab>
+

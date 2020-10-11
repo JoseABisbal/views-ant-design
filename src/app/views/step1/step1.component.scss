@@ -20,6 +20,7 @@
   border-style: none groove none none;
   border-top: 3px solid #ECA651;
   padding-top: 12px;
+
   h1,
   h2,
   h3,
@@ -36,6 +37,7 @@
   border-style: none groove none none;
   border-top: 3px solid #21BC9C;
   padding-top: 12px;
+
   h1,
   h2,
   h3,
@@ -62,20 +64,22 @@
 
 .delimitation-c1 {
   border-style: none groove none none;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .delimitation {
   border-style: none groove none none;
   text-align: center;
-  padding-bottom: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 .final-delimitation {
   border-style: none groove groove none;
   text-align: center;
-  padding-bottom: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
 }
 
 
@@ -86,8 +90,9 @@
 
 [nz-radio-button] {
   color: white;
-  background: #3B7BDC;;
+  background: #3B7BDC;
+  ;
 }
-.check{
-  fill:#3B7BDC;
+.check-icon {
+  color: #3B7BDC;
 }

@@ -1,1 +1,192 @@
-<p>step2 works!</p>
+<div nz-row class="r1">
+    <div nz-col nzSpan="8" class="delimitation-c1">
+      <h3>Summary</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-team">
+      <h3></h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-business">
+      <h3></h3>
+    </div>
+
+  </div>
+
+
+  <div nz-row class="r2">
+    <div nz-col nzSpan="8" class="delimitation-c1">
+      <h3>Workspace Starter:</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-team">
+      <h3>Users Package:</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-business">
+      <h3></h3>
+    </div>
+
+  </div>
+
+  <div nz-row class="r3">
+    <div nz-col nzSpan="8" class="delimitation-c1">
+      <h3>Company, Project, Planing, Coordination</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-team">
+      <h3>50 Users</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-business">
+      <h3></h3>
+    </div>
+
+  </div>
+
+
+  <div nz-row class="r4">
+    <div nz-col nzSpan="8" class="delimitation-c1">
+      <h3>Additional Workspaces:</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-team">
+      <h3>Collaborators:</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-business">
+      <h3></h3>
+    </div>
+
+  </div>
+
+
+  
+  <div nz-row class="r5">
+    <div nz-col nzSpan="8" class="delimitation-c1">
+      <h3>Element Management, Field Operations, Financials,Multi-Project Management, CRM</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-team">
+      <h3>100 Guest Users</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-business">
+      <h3></h3>
+    </div>
+
+  </div>
+
+
+  <div nz-row class="r6">
+    <div nz-col nzSpan="8" class="delimitation-c1">
+      <h3></h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-team">
+      <h3>Data Storage:</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-business">
+      <h3></h3>
+    </div>
+
+  </div>
+
+
+  <div nz-row class="r7">
+    <div nz-col nzSpan="8" class="delimitation-c1">
+      <h3></h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-team">
+      <h3>1TB</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="col-business">
+      <h3></h3>
+    </div>
+
+  </div>
+
+
+  <div nz-row class="r8">
+    <div nz-col nzSpan="8" class="delimitation-c1">
+    <i nz-icon nzType="check-square" nzTheme="outline"></i>
+    <span>Yearly savings (17%) -$150</span>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+      <h3></h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+      <h3>All prices net plus local VAT</h3>
+    </div>
+
+  </div>
+
+  
+  <div nz-row class="r9">
+    <div nz-col nzSpan="8" class="">
+        <h3>Total $499 per Month</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+      <h3></h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+      
+    </div>
+
+  </div>
+
+  <div nz-row class="r10">
+    <div nz-col nzSpan="8" class="">
+        <h3>Company & billing data</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+      <h3></h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+      
+    </div>
+
+  </div>
+
+  <div nz-row class="r11">
+    <div nz-col nzSpan="8" class="">
+        <h3>Software Language</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+      <h3>VAT registration</h3>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+      
+    </div>
+
+  </div>
+
+  <div nz-row class="r12">
+    <div nz-col nzSpan="8" class="">
+        <nz-select [(ngModel)]="selectedProvince" (ngModelChange)="provinceChange($event)">
+            <nz-option *ngFor="let p of provinceData" [nzValue]="p" [nzLabel]="p"></nz-option>
+          </nz-select>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+        <nz-select [(ngModel)]="selectedCity">
+            <nz-option *ngFor="let c of cityData[selectedProvince]" [nzValue]="c" [nzLabel]="c"></nz-option>
+          </nz-select>
+    </div>
+
+    <div nz-col nzSpan="8" class="">
+      
+    </div>
+
+  </div>

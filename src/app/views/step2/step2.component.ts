@@ -7,6 +7,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Step2Component implements OnInit {
 
+  selectedProvince = 'Zhejiang';
+  selectedCity = 'Hangzhou';
+  provinceData = ['Zhejiang', 'Jiangsu'];
+  cityData: { [place: string]: string[] } = {
+    Zhejiang: ['Hangzhou', 'Ningbo', 'Wenzhou'],
+    Jiangsu: ['Nanjing', 'Suzhou', 'Zhenjiang']
+  };
+
+  provinceChange(value: string): void {
+    this.selectedCity = this.cityData[value][0];
+  }
   constructor() { }
 
   ngOnInit(): void {

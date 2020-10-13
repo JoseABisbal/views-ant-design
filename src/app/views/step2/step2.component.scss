@@ -1,4 +1,4 @@
-.delimitation-s{
+.delimitation-s {
   padding-top: 30px;
   padding-bottom: 16px;
   margin-left: 100px;
@@ -9,6 +9,10 @@
 }
 
 .r2 {
+  background-color: #F6F7FB;
+}
+
+.r3 {
   background-color: #F6F7FB;
 }
 
@@ -27,11 +31,40 @@
   padding-bottom: 16px;
 }
 
-.delimitation-allprices{
+.delimitation-allprices {
   padding-left: 100px;
 }
 
-.delimitation-r1{
+.delimitation-r1 {
   margin-left: 100px;
+  padding-bottom: 16px;
+}
+
+.delimitation-comp {
+  padding-top: 30px;
+  padding-bottom: 16px;
+  margin-left: 100px;
+}
+
+.delimitation-r2 {
+  margin-left: 100px;
+  padding-bottom: 16px;
+}
+
+.delimitation-address1 {
+  margin-left: 100px;
+  border: 2px solid #90A2C5;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.delimitation-address2 {
+  margin-left: 100px;
+  border: 2px solid #90A2C5;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+}
+
+.delimitation-end {
   padding-bottom: 16px;
 }

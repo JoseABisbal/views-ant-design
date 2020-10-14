@@ -74,12 +74,14 @@
   padding-bottom: 16px;
 }
 
-.btn-submit {
-  margin-block-end: 10px;
+.delimitation-btn {
+  text-align: right;
+
 }
 
+
 [nz-button] {
-  color: #FFFFFF;
-  background: #2F79FF;
-  text-align: right;
+  margin-right: 8px;
+  margin-bottom: 12px;
+  text-align: center;
 }
